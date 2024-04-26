@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    text-align: center;
+    background-color: #f0e4f7; /* Fondo lila pastel */
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #fff0f0; /* Fondo rojo pastel */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Sombra suave para dar efecto de relieve */
+    border: 1px solid #f2c1d1; /* Borde sutil */
+    border-radius: 10px;
+    position: relative; /* Para posicionamiento absoluto de sub-título */
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto; /* Centra los elementos automáticamente */
+    padding: 8px;
+    width: calc(100% - 16px); /* Ajusta el ancho para incluir el padding */
+    border: 2px solid #e0aee4; /* Borde lila para los inputs y botones */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Sombra para dar efecto de relieve */
+}
+
+#results {
+    padding: 10px;
+    background-color: #f9e2e7; /* Fondo de resultados en rojo más claro */
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Mayor sombra para destacar los resultados */
+}
+
+button {
+    background-color: #f7e0ee; /* Color de fondo del botón en rojo pastel */
+    color: #5a2040; /* Color del texto oscuro para contraste */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e5d0e0; /* Cambio de color en hover para el botón */
+}
+
+.title {
+    font-size: 24px; /* Ajuste del tamaño del título principal */
+}
+
+.by-line {
+    font-size: 14px; /* Tamaño más pequeño para la filiación */
+    font-style: italic; /* Estilo cursiva */
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 10px; /* Posición desde la parte inferior del contenedor */
+    width: 100%; /* Ancho para centrar el texto */
+    text-align: center; /* Alineación del texto */
+}
